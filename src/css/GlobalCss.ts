@@ -19,7 +19,7 @@ const GlobalCss = css`
   }
   @font-face {
     font-family: 'Blockletter';
-    src: url('/assets/font/Blockletter/Adlery-Pro-trial.ttf') format('truetype');
+    src: url('${BASE_URL}assets/font/Blockletter/Adlery-Pro-trial.ttf') format('truetype');
     font-style: normal;
   }
   @font-face {
