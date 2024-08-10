@@ -97,9 +97,13 @@ const BankAccountListAccordion = ({
         open={snackbarOpen}
         autoHideDuration={3000}
         onClose={handleClose}
-        message="복사되었습니다"
+        style={{ width: '100%' }}
         anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
-      />
+      >
+        <Flex style={{ width: 220, backgroundColor: '##28292d', borderRadius:'4px', padding:'5px 0' }}>
+          <Text style={{ color: 'white' }}>복사되었습니다</Text>
+        </Flex>
+      </Snackbar>
     </>
   );
 };
