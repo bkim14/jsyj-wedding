@@ -25,6 +25,7 @@ const IntroFeature = () => {
           zIndex: 100,
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       >
         <Flex css={{ paddingTop: '4vh' }}>
