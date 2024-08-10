@@ -4,6 +4,7 @@ const Tokens = {
     'main-background2': '#f9efef',
     'font-color-pretty': '#0C6A31',
     'font-color-base': '#595d67',
+    'border-color': '#bee2be',
   },
   fontSize: {
     xxl: '3rem',

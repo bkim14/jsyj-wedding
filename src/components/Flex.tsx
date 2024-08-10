@@ -5,6 +5,7 @@ interface FlexProps {
   alignItems?: string;
   justifyContents?: string;
   column?: boolean;
+  fullWidth?: boolean;
 }
 
 export const Flex = styled.div<FlexProps>((props) => ({
@@ -13,5 +14,6 @@ export const Flex = styled.div<FlexProps>((props) => ({
     props.column === undefined || props.column ? 'column' : 'row',
   'align-items': props.alignItems || 'center',
   'justify-contents': props.justifyContents || 'center',
+  width: props.fullWidth ? '100%' : '',
   gap: props.gap,
 }));

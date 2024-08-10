@@ -7,12 +7,14 @@ interface TextProps {
   italic?: boolean;
   prettyColor?: boolean;
   cursive?: boolean;
+  bold?: boolean;
 }
 
 const Text = styled.span<TextProps>((props) => ({
   'font-size': props.size || Tokens.fontSize.sm,
   'font-style': props.italic ? 'italic' : 'normal',
   'font-family': props.cursive && 'Blockletter',
+  'font-weight': props.bold ? 'bold' : 'normal',
   color: props.prettyColor
     ? tokens.colors['font-color-pretty']
     : tokens.colors['font-color-base'],

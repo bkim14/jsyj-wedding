@@ -11,9 +11,9 @@ const MapContainer = () => {
   return (
     <Map
       center={COORDINATE}
-      style={{ width: '80vw', height: '360px' }}
+      style={{ width: '80vw', height: '80vw' }}
       draggable={false}
-      zoomable={true}
+      zoomable={false}
     >
       <MapMarker position={COORDINATE} />
     </Map>

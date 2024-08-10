@@ -4,8 +4,6 @@ import image from '../assets/main.jpeg';
 import styled from '@emotion/styled';
 import tokens from '../css/tokens.ts';
 import { keyframes } from '@emotion/react';
-import { useState } from 'react';
-import Placeholder from '../components/Placeholder.tsx';
 
 const fadeIn = keyframes`
   0% {
@@ -20,26 +18,31 @@ const fadeIn = keyframes`
   }`;
 
 const IntroFeature = () => {
-  const [loaded, setLoaded] = useState(false);
-
   return (
-    <Flex gap="15px">
-      <Flex style={{ zIndex: 100 }}>
-        <TitleText prettyColor cursive>
-          We are getting
-        </TitleText>
-        <TitleText prettyColor cursive>
-          Married
-        </TitleText>
+    <Flex fullWidth gap={'30px'}>
+      <Flex
+        style={{
+          zIndex: 100,
+          backgroundImage: `url(${image})`,
+          backgroundSize: 'cover',
+        }}
+      >
+        <Flex css={{ paddingTop: '4vh' }}>
+          <TitleText prettyColor cursive>
+            We are getting
+          </TitleText>
+          <TitleText prettyColor cursive>
+            Married
+          </TitleText>
+        </Flex>
+
+        <img
+          src={image as string}
+          alt=""
+          width="100%"
+          style={{ visibility: 'hidden' }}
+        />
       </Flex>
-      {!loaded && <Placeholder />}
-      <img
-        src={image as string}
-        alt=""
-        width="100%"
-        style={{ position: 'relative', top: '-25vh' }}
-        onLoad={() => setLoaded(true)}
-      />
       <Flex gap="10px">
         <Text size={tokens.fontSize.md}>신랑 김치현 ♡ 신부 장여진</Text>
         <Flex>

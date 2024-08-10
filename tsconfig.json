@@ -22,8 +22,8 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
     "jsxImportSource": "@emotion/react",
-    "types": ["kakao.maps.d.ts"]
+    "types": ["kakao.maps.d.ts", "vite-plugin-svgr/client"]
   },
-  "include": ["src"],
+  "include": ["src", "custom.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
