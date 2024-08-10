@@ -103,7 +103,7 @@ const BankAccountListAccordion = ({
         <Flex
           style={{
             width: 220,
-            backgroundColor: '##28292d',
+            backgroundColor: '#28292d',
             borderRadius: '4px',
             padding: '5px 0',
           }}
