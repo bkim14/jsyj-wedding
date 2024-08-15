@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 interface FlexProps {
-  gap?: string;
+  gap?: string | number;
   alignItems?: string;
   justifyContents?: string;
   column?: boolean;

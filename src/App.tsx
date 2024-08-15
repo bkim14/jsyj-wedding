@@ -8,6 +8,7 @@ import BankAccountFeature from './features/BankAccountFeature/BankAccountFeature
 import { createTheme, ThemeProvider } from '@mui/material';
 import tokens from './css/tokens.ts';
 import GalleryFeature from './features/GalleryFeature/GalleryFeature.tsx';
+import DateFeature from '@/features/DateFeature/DateFeature.tsx';
 
 function App() {
   const theme = createTheme({
@@ -23,6 +24,7 @@ function App() {
         <RsvpDialog />
         <MainLayer>
           <IntroFeature />
+          <DateFeature />
           <GalleryFeature />
           <LocationFeature />
           <BankAccountFeature />
