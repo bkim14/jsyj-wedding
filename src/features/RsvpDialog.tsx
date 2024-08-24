@@ -39,7 +39,7 @@ const RsvpDialog = () => {
       </DialogContent>
       <DialogActions style={{ justifyContent: 'center' }}>
         <Button onClick={() => setOpen(false)}>다음에 입력할게요</Button>
-        <Button autoFocus>참석여부 전달하기</Button>
+        <Button>참석여부 전달하기</Button>
       </DialogActions>
     </Dialog>
   );

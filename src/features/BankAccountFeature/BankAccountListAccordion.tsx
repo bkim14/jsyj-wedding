@@ -1,9 +1,8 @@
-import { Flex } from '../../components/Flex.tsx';
-import Text from '../../components/Text.tsx';
-import Arrow from '../../assets/arrow.svg?react';
+import { Flex } from '@/components/Flex.tsx';
+import Text from '@/components/Text.tsx';
+import Arrow from '@/assets/arrow.svg?react';
 import { useState } from 'react';
 import { Button, Snackbar } from '@mui/material';
-import tokens from '../../css/tokens.ts';
 
 interface AccountInfo {
   name: string;
@@ -42,15 +41,19 @@ const BankAccountListAccordion = ({
           column={false}
           style={{
             justifyContent: 'space-between',
-            border: `1px solid ${tokens.colors['border-color']}`,
-            padding: '0 10px',
+            padding: '7px',
+            backgroundColor: '#ebadad',
+            borderRadius: '5px',
           }}
           onClick={() => setOpen((prev) => !prev)}
         >
           <div />
-          <Text>{title}</Text>
+          <Text color={'white'}>{title}</Text>
           <Arrow
-            style={{ transform: open ? 'rotate(90deg)' : 'rotate(270deg)' }}
+            style={{
+              transform: open ? 'rotate(270deg)' : 'rotate(90deg)',
+              fill: 'white',
+            }}
           />
         </Flex>
         {open && (
@@ -76,7 +79,8 @@ const BankAccountListAccordion = ({
                   <Button
                     color={'primary'}
                     style={{
-                      border: `1px solid ${tokens.colors['border-color']}`,
+                      backgroundColor: '#ebadad',
+                      color: 'white',
                     }}
                     onClick={() => {
                       navigator.clipboard.writeText(

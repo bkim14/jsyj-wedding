@@ -17,7 +17,7 @@ const Text = styled.span<TextProps>((props) => ({
   'font-weight': props.bold ? 'bold' : 'normal',
   color: props.prettyColor
     ? tokens.colors['font-color-pretty']
-    : tokens.colors['font-color-base'],
+    : props.color || tokens.colors['font-color-base'],
 }));
 
 export default Text;

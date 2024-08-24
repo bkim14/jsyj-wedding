@@ -9,6 +9,8 @@ import { createTheme, ThemeProvider } from '@mui/material';
 import tokens from './css/tokens.ts';
 import GalleryFeature from './features/GalleryFeature/GalleryFeature.tsx';
 import DateFeature from '@/features/DateFeature/DateFeature.tsx';
+import RsvpFeature from '@/features/RsvpFeature/RsvpFeature.tsx';
+import DeclarationFeature from '@/features/DeclarationFeature/DeclarationFeature.tsx';
 
 function App() {
   const theme = createTheme({
@@ -24,10 +26,12 @@ function App() {
         <RsvpDialog />
         <MainLayer>
           <IntroFeature />
+          <DeclarationFeature />
           <DateFeature />
           <GalleryFeature />
           <LocationFeature />
           <BankAccountFeature />
+          <RsvpFeature />
         </MainLayer>
       </ThemeProvider>
     </>
