@@ -1,6 +1,8 @@
+import './Gallery.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import ImageGallery from 'react-image-gallery';
+import image from '/assets/main.jpeg';
 
 const images = [
   {
@@ -14,6 +16,10 @@ const images = [
   {
     original: 'https://picsum.photos/id/1019/1000/600/',
     thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
+  {
+    original: image as string,
+    thumbnail: image as string,
   },
 ];
 

@@ -59,7 +59,13 @@ const BankAccountListAccordion = ({
         {open && (
           <Flex fullWidth>
             {accountInfoList.map(({ title, name, bankName, accountNumber }) => (
-              <>
+              <Flex
+                fullWidth
+                style={{
+                  borderBottom: '1px solid lightgray',
+                  padding: '5px 0',
+                }}
+              >
                 <Flex column={false} gap={'15px'} fullWidth>
                   <Text>{title}</Text>
                   <Text bold>{name}</Text>
@@ -81,6 +87,7 @@ const BankAccountListAccordion = ({
                     style={{
                       backgroundColor: '#ebadad',
                       color: 'white',
+                      height: '25px',
                     }}
                     onClick={() => {
                       navigator.clipboard.writeText(
@@ -92,7 +99,7 @@ const BankAccountListAccordion = ({
                     복사
                   </Button>
                 </Flex>
-              </>
+              </Flex>
             ))}
           </Flex>
         )}

@@ -31,7 +31,7 @@ const MapContainer = () => {
     >
       <MapMarker position={COORDINATE}>
         <Flex ref={refCallback} fullWidth column={false}>
-          <Text bold>페어몬트 앰버서더</Text>
+          <Text bold>비렌티웨딩홀</Text>
         </Flex>
       </MapMarker>
     </Map>

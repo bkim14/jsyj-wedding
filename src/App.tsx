@@ -3,7 +3,6 @@ import { Global } from '@emotion/react';
 import GlobalCss from './css/GlobalCss.ts';
 import IntroFeature from './features/IntroFeature.tsx';
 import LocationFeature from './features/LocationFeature/LocationFeature.tsx';
-import RsvpDialog from './features/RsvpDialog.tsx';
 import BankAccountFeature from './features/BankAccountFeature/BankAccountFeature.tsx';
 import { createTheme, ThemeProvider } from '@mui/material';
 import tokens from './css/tokens.ts';
@@ -23,7 +22,6 @@ function App() {
     <>
       <Global styles={GlobalCss} />
       <ThemeProvider theme={theme}>
-        <RsvpDialog />
         <MainLayer>
           <IntroFeature />
           <DeclarationFeature />

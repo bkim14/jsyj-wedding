@@ -9,9 +9,8 @@ const LocationFeature = () => {
     <LocationContainer>
       <TitleContainer title={'오시는 길'} />
       <Flex gap={5}>
-        <Text>페어몬트 앰버서더 호텔</Text>
-        <Text>그랜드 볼룸</Text>
-        <Text>서울 영등포구 여의대로 108</Text>
+        <Text>비렌티 웨딩 3층 베르테홀</Text>
+        <Text>충남 천안시 서북구 천안대로 1198-30</Text>
       </Flex>
       <MapContainer />
     </LocationContainer>

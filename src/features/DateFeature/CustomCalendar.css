@@ -13,6 +13,11 @@
   font-weight: bold;
   color: #6f48eb;
 }
+
+.react-calendar__tile--now:enabled {
+  background: none;
+}
+
 .react-calendar__tile--hasActive:enabled:hover,
 .react-calendar__tile--hasActive:enabled:focus {
   background: #f8f8fa;

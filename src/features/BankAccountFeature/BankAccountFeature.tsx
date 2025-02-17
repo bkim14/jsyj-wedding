@@ -5,19 +5,19 @@ import BankAccountListAccordion from './BankAccountListAccordion.tsx';
 
 const CHI_ACCOUNT_LIST = [
   {
-    name: '김치현',
+    name: '황정선',
     title: '신랑',
     bankName: '우리',
     accountNumber: '1002 111 222222',
   },
   {
-    name: '김병옥',
+    name: '황치환',
     title: '아버지',
     bankName: '우리',
     accountNumber: '1002 111 222222',
   },
   {
-    name: '강지윤',
+    name: '박순희',
     title: '어머니',
     bankName: '우리',
     accountNumber: '1002 111 222222',
@@ -26,19 +26,19 @@ const CHI_ACCOUNT_LIST = [
 
 const WIFE_ACCOUNT_LIST = [
   {
-    name: '장여진',
+    name: '강윤정',
     title: '신부',
     bankName: '우리',
     accountNumber: '1002 111 222222',
   },
   {
-    name: '김병옥',
+    name: '강태진',
     title: '아버지',
     bankName: '우리',
     accountNumber: '1002 111 222222',
   },
   {
-    name: '강지윤',
+    name: '박인경',
     title: '어머니',
     bankName: '우리',
     accountNumber: '1002 111 222222',

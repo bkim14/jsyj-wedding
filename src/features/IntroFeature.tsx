@@ -1,6 +1,6 @@
 import { Flex } from '../components/Flex.tsx';
 import Text from '../components/Text.tsx';
-import image from '../assets/main.jpeg';
+import image from '../assets/MainImage.jpeg';
 import styled from '@emotion/styled';
 import tokens from '../css/tokens.ts';
 import { keyframes } from '@emotion/react';
@@ -30,13 +30,9 @@ const IntroFeature = () => {
       >
         <Flex css={{ paddingTop: '4vh' }}>
           <TitleText prettyColor cursive>
-            We are getting
-          </TitleText>
-          <TitleText prettyColor cursive>
-            Married
+            Our Wedding Day
           </TitleText>
         </Flex>
-
         <img
           src={image as string}
           alt=""
@@ -45,10 +41,10 @@ const IntroFeature = () => {
         />
       </Flex>
       <Flex gap="10px">
-        <Text size={tokens.fontSize.md}>신랑 김치현 ♡ 신부 장여진</Text>
+        <Text size={tokens.fontSize.md}>신랑 황정선 ♡ 신부 강윤정</Text>
         <Flex>
-          <Text italic>2025. 02. 16 12:00</Text>
-          <Text>페어몬트 앰버서더 서울</Text>
+          <Text italic>2025. 05. 17 11:00</Text>
+          <Text>비렌티웨딩홀 3층 베르테홀</Text>
         </Flex>
       </Flex>
     </Flex>

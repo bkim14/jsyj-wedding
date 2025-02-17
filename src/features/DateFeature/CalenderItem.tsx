@@ -30,7 +30,7 @@ const CalenderItem = () => {
 
   return (
     <Calendar
-      defaultValue={new Date(2025, 1, 16)}
+      defaultValue={new Date(2025, 4, 17)}
       formatDay={(_, date) => {
         return date.getDate().toString();
       }}
@@ -39,7 +39,7 @@ const CalenderItem = () => {
       showNavigation={false}
       showNeighboringMonth={false}
       calendarType="gregory"
-    ></Calendar>
+    />
   );
 };
 
