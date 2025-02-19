@@ -3,7 +3,7 @@ import { Map } from 'react-kakao-maps-sdk';
 import Text from '../../components/Text.tsx';
 import { Flex } from '@/components/Flex.tsx';
 
-const COORDINATE = { lat: 37.5251, lng: 126.929112756574 };
+const COORDINATE = { lat: 36.847834365810954, lng: 127.15907272770498 };
 
 const MapContainer = () => {
   useKakaoLoader({
@@ -16,7 +16,7 @@ const MapContainer = () => {
         'style',
         (node.parentElement?.getAttribute('style') || '').replace(
           'left: 0px;',
-          'left: 20px;',
+          'left: 35px;',
         ),
       );
     }
@@ -30,7 +30,7 @@ const MapContainer = () => {
       zoomable={false}
     >
       <MapMarker position={COORDINATE}>
-        <Flex ref={refCallback} fullWidth column={false}>
+        <Flex ref={refCallback} fullWidth>
           <Text bold>비렌티웨딩홀</Text>
         </Flex>
       </MapMarker>

@@ -1,13 +1,14 @@
 import styled from '@emotion/styled';
 import { Flex } from '../../components/Flex.tsx';
-import TitleContainer from '../../components/TitleContainer.tsx';
 import BankAccountListAccordion from './BankAccountListAccordion.tsx';
+import Text from "@/components/Text.tsx";
+import flower from "@/assets/flower.png";
 
 const CHI_ACCOUNT_LIST = [
   {
     name: '황정선',
     title: '신랑',
-    bankName: '우리',
+    bankName: '농협',
     accountNumber: '356 027 8646 013',
   },
   {
@@ -48,7 +49,13 @@ const WIFE_ACCOUNT_LIST = [
 const BankAccountFeature = () => {
   return (
     <Container>
-      <TitleContainer title={'마음 전하실 곳'} />
+      {/*<TitleContainer title={'마음 전하실 곳'} />*/}
+      <Flex style={{ width: '80%' }}>
+        <img src={flower as string} alt="" width="50%" />
+        <Text color={'#0C6A31'} bold size={'1.2rem'}>
+          마음 전하실 곳
+        </Text>
+      </Flex>
       <BankAccountListAccordion
         title="신랑측"
         accountInfoList={CHI_ACCOUNT_LIST}

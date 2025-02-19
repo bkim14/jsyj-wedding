@@ -20,5 +20,5 @@ export default defineConfig({
   server: {
     host: true,
   },
-  base: '/kimchi-wedding/',
+  base: '/jsyj-wedding/',
 });

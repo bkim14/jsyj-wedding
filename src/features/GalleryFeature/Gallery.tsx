@@ -13,11 +13,13 @@ import image8 from '../../assets/gallery8.jpeg';
 import image9 from '../../assets/gallery9.jpeg';
 import image10 from '../../assets/gallery10.jpeg';
 import image11 from '../../assets/gallery11.jpeg';
+import image12 from '../../assets/gallery12.jpeg';
+import image13 from '../../assets/gallery13.jpeg';
 
 const images = [
   {
-    original: image1 as string,
-    thumbnail: image1 as string,
+    original: image5 as string,
+    thumbnail: image5 as string,
   },
   {
     original: image2 as string,
@@ -30,13 +32,22 @@ const images = [
   {
     original: image4 as string,
     thumbnail: image4 as string,
-  },{
-    original: image5 as string,
-    thumbnail: image5 as string,
+  },
+  {
+    original: image1 as string,
+    thumbnail: image1 as string,
   },
   {
     original: image6 as string,
     thumbnail: image6 as string,
+  },
+  {
+    original: image12 as string,
+    thumbnail: image12 as string,
+  },
+  {
+    original: image13 as string,
+    thumbnail: image13 as string,
   },
   {
     original: image7 as string,

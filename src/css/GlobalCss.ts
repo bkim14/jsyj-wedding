@@ -14,42 +14,56 @@ const GlobalCss = css`
   }
   @font-face {
     font-family: 'Blenda';
-    src: url('${BASE_URL}src/assets/font/Blenda/Blenda Script.otf') format('opentype');
+    src: url('${BASE_URL}src/assets/font/Blenda/Blenda Script.otf')
+      format('opentype');
     font-style: normal;
   }
   @font-face {
     font-family: 'Blockletter';
-    src: url('${BASE_URL}assets/font/Blockletter/Adlery-Pro-trial.ttf') format('truetype');
+    src: url('${BASE_URL}assets/font/Blockletter/Adlery-Pro-trial.ttf')
+      format('truetype');
     font-style: normal;
   }
   @font-face {
     font-family: 'Broadcast';
-    src: url('${BASE_URL}src/assets/font/BroadcastMatter/Broadcast_Matter.ttf') format('truetype');
+    src: url('${BASE_URL}src/assets/font/BroadcastMatter/Broadcast_Matter.ttf')
+      format('truetype');
     font-style: normal;
   }
   @font-face {
     font-family: 'Golden';
-    src: url('${BASE_URL}src/assets/font/Golden_Plains/Golden_Plains.ttf') format('truetype');
+    src: url('${BASE_URL}src/assets/font/Golden_Plains/Golden_Plains.ttf')
+      format('truetype');
     font-style: normal;
   }
   @font-face {
     font-family: 'Magnolia';
-    src: url('${BASE_URL}src/assets/font/Magnolia/Magnolia Script.otf') format('opentype');
+    src: url('${BASE_URL}src/assets/font/Magnolia/Magnolia Script.otf')
+      format('opentype');
     font-style: normal;
   }
   @font-face {
     font-family: 'Magnolia';
-    src: url('${BASE_URL}src/assets/font/Magnolia/Magnolia Script.otf') format('opentype');
+    src: url('${BASE_URL}src/assets/font/Magnolia/Magnolia Script.otf')
+      format('opentype');
     font-style: normal;
   }
   @font-face {
     font-family: 'Pacifico';
-    src: url('${BASE_URL}src/assets/font/Pacifico/Pacifico.ttf') format('truetype');
+    src: url('${BASE_URL}src/assets/font/Pacifico/Pacifico.ttf')
+      format('truetype');
     font-style: normal;
   }
   @font-face {
     font-family: 'SoutGarden';
     src: url('${BASE_URL}src/assets/font/SoutGarden/South Gardens Personal Use.ttf')
+      format('truetype');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gowun';
+    src: url('${BASE_URL}src/assets/font/Gowun/GowunDodum-Regular.ttf')
       format('truetype');
     font-style: normal;
   }
@@ -62,7 +76,7 @@ const GlobalCss = css`
     font-size: 1rem;
     margin: 0;
     padding: 0;
-    font-family: 'Pretendard';
+    font-family: 'Gowun';
   }
 `;
 

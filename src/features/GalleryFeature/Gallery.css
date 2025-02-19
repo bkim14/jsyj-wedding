@@ -4,3 +4,14 @@
 .image-gallery {
   width: 100% !important;
 }
+
+.image-gallery-thumbnail.active {
+  border: 1px solid darkseagreen !important;
+}
+button:hover {
+  border: none !important;
+}
+
+button {
+  border-radius: 0px !important;
+}
