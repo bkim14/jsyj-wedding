@@ -4,7 +4,7 @@ import './CustomCalendar.css';
 import { useEffect, useState } from 'react';
 
 const WRAPPER_DIV_STYLE =
-  'display: flex; width: 30px; height: 30px; margin: 0 auto; background: #d56276; border-radius: 20px;align-items:center;justify-content:center;';
+  'display: flex; width: 30px; height: 30px; margin: 0 auto; background: #0C6A31; border-radius: 20px;align-items:center;justify-content:center;';
 
 const CalenderItem = () => {
   const [hasSet, setHasSet] = useState(false);

@@ -8,19 +8,19 @@ const CHI_ACCOUNT_LIST = [
     name: '황정선',
     title: '신랑',
     bankName: '우리',
-    accountNumber: '1002 111 222222',
+    accountNumber: '356 027 8646 013',
   },
   {
     name: '황치환',
     title: '아버지',
-    bankName: '우리',
-    accountNumber: '1002 111 222222',
+    bankName: '농협',
+    accountNumber: '434 02 005103',
   },
   {
     name: '박순희',
     title: '어머니',
-    bankName: '우리',
-    accountNumber: '1002 111 222222',
+    bankName: '농협',
+    accountNumber: '352 5586 0984 03',
   },
 ];
 
@@ -28,20 +28,20 @@ const WIFE_ACCOUNT_LIST = [
   {
     name: '강윤정',
     title: '신부',
-    bankName: '우리',
-    accountNumber: '1002 111 222222',
+    bankName: '농협',
+    accountNumber: '302 2420 1958 71',
   },
   {
     name: '강태진',
     title: '아버지',
-    bankName: '우리',
-    accountNumber: '1002 111 222222',
+    bankName: '하나은행',
+    accountNumber: '673 133171 00107',
   },
   {
     name: '박인경',
     title: '어머니',
-    bankName: '우리',
-    accountNumber: '1002 111 222222',
+    bankName: '농협',
+    accountNumber: '461015 52 116930',
   },
 ];
 

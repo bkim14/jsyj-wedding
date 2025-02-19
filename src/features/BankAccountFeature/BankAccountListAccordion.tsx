@@ -42,17 +42,17 @@ const BankAccountListAccordion = ({
           style={{
             justifyContent: 'space-between',
             padding: '7px',
-            backgroundColor: '#ebadad',
+            backgroundColor: '#ECE4D9',
             borderRadius: '5px',
           }}
           onClick={() => setOpen((prev) => !prev)}
         >
           <div />
-          <Text color={'white'}>{title}</Text>
+          <Text color={'#595d67'}>{title}</Text>
           <Arrow
             style={{
               transform: open ? 'rotate(270deg)' : 'rotate(90deg)',
-              fill: 'white',
+              fill: '#595d67',
             }}
           />
         </Flex>
@@ -85,8 +85,8 @@ const BankAccountListAccordion = ({
                   <Button
                     color={'primary'}
                     style={{
-                      backgroundColor: '#ebadad',
-                      color: 'white',
+                      backgroundColor: '#ECE4D9',
+                      color: '#595d67',
                       height: '25px',
                     }}
                     onClick={() => {

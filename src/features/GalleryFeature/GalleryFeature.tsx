@@ -4,7 +4,7 @@ import TitleContainer from '@/components/TitleContainer.tsx';
 
 const GalleryFeature = () => {
   return (
-    <Flex gap={15}>
+    <Flex fullWidth gap={15}>
       <TitleContainer title={'Gallery'} />
       <Gallery />
     </Flex>

@@ -40,13 +40,13 @@ const IntroFeature = () => {
           style={{ visibility: 'hidden' }}
         />
       </Flex>
-      <Flex gap="10px">
+      {/*<Flex gap="10px">
         <Text size={tokens.fontSize.md}>신랑 황정선 ♡ 신부 강윤정</Text>
         <Flex>
           <Text italic>2025. 05. 17 11:00</Text>
           <Text>비렌티웨딩홀 3층 베르테홀</Text>
         </Flex>
-      </Flex>
+      </Flex>*/}
     </Flex>
   );
 };

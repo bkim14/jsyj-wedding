@@ -1,3 +1,6 @@
 .image-gallery.fullscreen .image-gallery-thumbnails-wrapper {
   display: none;
 }
+.image-gallery {
+  width: 100% !important;
+}
