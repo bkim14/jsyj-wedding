@@ -76,7 +76,7 @@ const GlobalCss = css`
     font-size: 1rem;
     margin: 0;
     padding: 0;
-    font-family: 'Gowun Dodum', serif;
+    font-family: 'Gowun Batang', serif;
   }
 `;
 
