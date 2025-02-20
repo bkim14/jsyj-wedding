@@ -1,6 +1,7 @@
 import { Flex } from '@/components/Flex.tsx';
 import Text from '@/components/Text.tsx';
 import image from "@/assets/flower.png";
+import MiddleImage from "@/assets/MiddleImage.jpeg";
 
 const DeclarationFeature = () => {
   return (
@@ -15,24 +16,28 @@ const DeclarationFeature = () => {
       </Flex>
       <Flex style={{ alignItems: 'center' }}>
         <Text>캠퍼스에서의 풋풋한 설렘이</Text>
-        <Text>사랑이 되어 서로의 꿈을 응원하며 함께 걸어온 8년.</Text>
+        <Text>사랑이 되어 서로의 꿈을 응원하며</Text>
+        <Text>함께 걸어온 8년.</Text>
+        <br />
         <Text>이제는 부부라는 새로운 교실에서</Text>
         <Text>더 깊은 사랑을 배워 나가려 합니다.</Text>
-        <Text>저희의 소중한 날에 귀한 발걸음으로 축하해주세요.</Text>
+        <Text>저희의 소중한 날에</Text>
+        <Text>귀한 발걸음으로 축하해주세요.</Text>
       </Flex>
-        <Flex>
-      <Flex column={false}>
+      <Flex>
+        <Flex column={false}>
           <Text size={'1.1rem'}>황치환, 박순희</Text>
           <Text>의 장남&nbsp;</Text>
           <Text size={'1.1rem'}>황정선</Text>
-      </Flex>
+        </Flex>
         <Flex column={false}>
-            <Text size={'1.1rem'}>강태진, 박인경</Text>
-            <Text>의 차녀&nbsp;</Text>
-            <Text size={'1.1rem'}>강윤정</Text>
+          <Text size={'1.1rem'}>강태진, 박인경</Text>
+          <Text>의 차녀&nbsp;</Text>
+          <Text size={'1.1rem'}>강윤정</Text>
         </Flex>
-        </Flex>
+      </Flex>
       <img src={image as string} alt="" width="50%" />
+      <img src={MiddleImage as string} alt="" width="100%"/>
     </Flex>
   );
 };

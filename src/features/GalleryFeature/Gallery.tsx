@@ -22,6 +22,10 @@ const images = [
     thumbnail: image5 as string,
   },
   {
+    original: image10 as string,
+    thumbnail: image10 as string,
+  },
+  {
     original: image2 as string,
     thumbnail: image2 as string,
   },
@@ -32,14 +36,6 @@ const images = [
   {
     original: image4 as string,
     thumbnail: image4 as string,
-  },
-  {
-    original: image1 as string,
-    thumbnail: image1 as string,
-  },
-  {
-    original: image6 as string,
-    thumbnail: image6 as string,
   },
   {
     original: image12 as string,
@@ -62,12 +58,16 @@ const images = [
     thumbnail: image9 as string,
   },
   {
-    original: image10 as string,
-    thumbnail: image10 as string,
-  },
-  {
     original: image11 as string,
     thumbnail: image11 as string,
+  },
+  {
+    original: image1 as string,
+    thumbnail: image1 as string,
+  },
+  {
+    original: image6 as string,
+    thumbnail: image6 as string,
   },
 ];
 

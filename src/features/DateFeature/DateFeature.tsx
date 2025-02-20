@@ -26,7 +26,7 @@ const DateFeature = () => {
       <CalenderItem />
       <Flex column={false}>
         <Text>정선 ♡ 윤정의 결혼식이&nbsp;</Text>
-        <Text color={'#d56276'}>{daysRemaining}일&nbsp;</Text>
+        <Text color={'#d56276'} bold>{daysRemaining}일&nbsp;</Text>
         <Text>남았습니다.</Text>
       </Flex>
     </Flex>
