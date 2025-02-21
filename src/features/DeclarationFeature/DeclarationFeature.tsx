@@ -1,7 +1,7 @@
 import { Flex } from '@/components/Flex.tsx';
 import Text from '@/components/Text.tsx';
-import image from "@/assets/flower.png";
-import MiddleImage from "@/assets/MiddleImage.jpeg";
+import image from '@/assets/flower.png';
+import MiddleImage from '@/assets/MiddleImage.jpeg';
 
 const DeclarationFeature = () => {
   return (
@@ -22,7 +22,7 @@ const DeclarationFeature = () => {
         <Text>이제는 부부라는 새로운 교실에서</Text>
         <Text>더 깊은 사랑을 배워 나가려 합니다.</Text>
         <Text>저희의 소중한 날에</Text>
-        <Text>귀한 발걸음으로 축하해주세요.</Text>
+        <Text>귀한 발걸음으로 함께해주세요.</Text>
       </Flex>
       <Flex>
         <Flex column={false}>
@@ -37,7 +37,7 @@ const DeclarationFeature = () => {
         </Flex>
       </Flex>
       <img src={image as string} alt="" width="50%" />
-      <img src={MiddleImage as string} alt="" width="100%"/>
+      <img src={MiddleImage as string} alt="" width="100%" />
     </Flex>
   );
 };

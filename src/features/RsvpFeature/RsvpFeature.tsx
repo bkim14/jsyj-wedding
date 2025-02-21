@@ -24,6 +24,7 @@ const RsvpFeature = () => {
       <Text>음악처럼 꿈처럼</Text>
       <Text>매일 새롭게 사랑을 주고 싶어</Text>
       <Text>지금처럼 곁에 있어주기를 언제나</Text>
+      <br />
       <Text>- 사막에서 꽃을 피우듯, 우디 -</Text>
       <img src={flower as string} alt="" width="50%" />
       <img src={image as string} alt="" width="100%" />

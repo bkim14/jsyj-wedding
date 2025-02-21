@@ -15,7 +15,7 @@ const fadeIn = keyframes`
   }`;
 
 const AnimationText = styled(Text)`
-  animation: ${fadeIn} 1s;
+  animation: ${fadeIn} 5s;
 `;
 
 export default AnimationText;
