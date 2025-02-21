@@ -23,9 +23,7 @@ const BASE_URL = import.meta.env.BASE_URL;
 
 const IntroFeature = () => {
   const [currentImage, setCurrentImage] = useState(pause);
-  const [audio] = useState(
-    new Audio(`${BASE_URL}assets/videoplayback.mp3`),
-  );
+  const [audio] = useState(new Audio(`${BASE_URL}assets/videoplayback.mp3`));
 
   useEffect(() => {
     void audio.play();
