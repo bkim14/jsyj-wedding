@@ -29,7 +29,7 @@ const LocationFeature = () => {
       </Flex>
       <Flex>
         <Text size={'1.1rem'} bold>
-          비렌티 웨딩 3층 베르테홀
+          비렌티 웨딩홀 3층 베르테홀
         </Text>
         <Text>충남 천안시 서북구 천안대로 1198-30</Text>
       </Flex>
