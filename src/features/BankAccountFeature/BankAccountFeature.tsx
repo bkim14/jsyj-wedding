@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 import { Flex } from '../../components/Flex.tsx';
 import BankAccountListAccordion from './BankAccountListAccordion.tsx';
-import Text from "@/components/Text.tsx";
-import flower from "@/assets/flower.png";
+import Text from '@/components/Text.tsx';
+import flower from '@/assets/flower.png';
+import FadeInWrapperHoc from '@/components/FadeInWrapper.tsx';
 
 const CHI_ACCOUNT_LIST = [
   {
@@ -73,4 +74,4 @@ const Container = styled(Flex)`
   gap: 15px;
 `;
 
-export default BankAccountFeature;
+export default FadeInWrapperHoc(BankAccountFeature);

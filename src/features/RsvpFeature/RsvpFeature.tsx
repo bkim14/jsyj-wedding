@@ -4,6 +4,7 @@ import flower from '../../assets/flower.png';
 import Text from '@/components/Text.tsx';
 import { useState } from 'react';
 import { Snackbar } from '@mui/material';
+import FadeInWrapperHoc from '@/components/FadeInWrapper.tsx';
 
 const RsvpFeature = () => {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
@@ -73,4 +74,4 @@ const RsvpFeature = () => {
   );
 };
 
-export default RsvpFeature;
+export default FadeInWrapperHoc(RsvpFeature);

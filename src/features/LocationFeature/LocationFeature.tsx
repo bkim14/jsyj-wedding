@@ -3,6 +3,7 @@ import { Flex } from '@/components/Flex.tsx';
 import Text from '@/components/Text.tsx';
 import styled from '@emotion/styled';
 import Tokens from '@/css/tokens.ts';
+import FadeInWrapperHoc from "@/components/FadeInWrapper.tsx";
 
 const GuideText = styled.li`
   color: ${Tokens.colors['font-color-pretty']};
@@ -69,4 +70,4 @@ const LocationContainer = styled(Flex)`
   gap: 15px;
 `;
 
-export default LocationFeature;
+export default FadeInWrapperHoc(LocationFeature);;

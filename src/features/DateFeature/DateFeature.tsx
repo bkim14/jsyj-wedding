@@ -2,6 +2,7 @@ import CalenderItem from '@/features/DateFeature/CalenderItem.tsx';
 import { Flex } from '@/components/Flex.tsx';
 import Text from '../../components/Text.tsx';
 import tokens from '@/css/tokens.ts';
+import FadeInWrapperHoc from '@/components/FadeInWrapper.tsx';
 
 const DateFeature = () => {
   Date.parse('16 Feb 2025 12:00:00 GMT');
@@ -26,11 +27,12 @@ const DateFeature = () => {
       <CalenderItem />
       <Flex column={false}>
         <Text>정선 ♡ 윤정의 결혼식이&nbsp;</Text>
-        <Text color={'#d56276'} bold>{daysRemaining}일&nbsp;</Text>
+        <Text color={'#d56276'} bold>
+          {daysRemaining}일&nbsp;
+        </Text>
         <Text>남았습니다.</Text>
       </Flex>
     </Flex>
   );
 };
-
-export default DateFeature;
+export default FadeInWrapperHoc(DateFeature);

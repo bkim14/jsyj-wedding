@@ -2,6 +2,7 @@ import { Flex } from '@/components/Flex.tsx';
 import Text from '@/components/Text.tsx';
 import image from '@/assets/flower.png';
 import MiddleImage from '@/assets/MiddleImage.jpeg';
+import FadeInWrapperHoc from "@/components/FadeInWrapper.tsx";
 
 const DeclarationFeature = () => {
   return (
@@ -42,7 +43,7 @@ const DeclarationFeature = () => {
   );
 };
 
-export default DeclarationFeature;
+export default FadeInWrapperHoc(DeclarationFeature);
 
 /*
 치(앞글자 크게)열한 삶 속에서 서로의 안식처가 되어줬습니다
